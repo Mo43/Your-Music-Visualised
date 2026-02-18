@@ -7,3 +7,6 @@
 - .env file created
 - initialised .gitignore file in order to not display contents of .env file and other python stuff.
 - created spotify app on spotify.com
+- created a venv 
+- installed spotipy and and put it on the venv
+- created a requirements file with all the different spotify dependencies and versions.
