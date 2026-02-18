@@ -10,3 +10,6 @@
 - created a venv 
 - installed spotipy and and put it on the venv
 - created a requirements file with all the different spotify dependencies and versions.
+- connected to a real api with OAuth autnethication
+- built a working script that gets information from spotify
+
