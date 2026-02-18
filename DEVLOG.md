@@ -13,3 +13,6 @@
 - connected to a real api with OAuth autnethication
 - built a working script that gets information from spotify
 - learnt how to use enumerate in python, used to count printed list
+
+## 18 feb 2026
+- 
