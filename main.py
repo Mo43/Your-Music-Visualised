@@ -1,4 +1,4 @@
-from database import save_tracks
+from database import setup_database, save_tracks
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
@@ -20,5 +20,7 @@ results = sp.current_user_top_tracks(limit=10)
 for i, track in enumerate(results['items']):
     #print(track)
     print(i+1, track['name'], "by", track['artists'][0]['name'])
-   
+    
+    
+setup_database()
 save_tracks(results)

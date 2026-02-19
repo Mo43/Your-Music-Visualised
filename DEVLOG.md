@@ -1,5 +1,3 @@
-
-
 ## 18 feb 2026
 - repository created
 - devlog file created
@@ -14,5 +12,7 @@
 - built a working script that gets information from spotify
 - learnt how to use enumerate in python, used to count printed list
 
-## 18 feb 2026
-- 
+## 19 feb 2026
+- downloaded sqlite viewer to view the database I created with sqlite. very helpful during development
+- created database.py where I added tables and then filled those tables with a function.
+- created an app.py using flask where I will now start to work on the web development.
