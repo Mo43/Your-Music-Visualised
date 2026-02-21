@@ -1,0 +1,15 @@
+<html>
+<head>
+    <titles>
+        Music Visualiser
+    </titles>
+</head>
+<body>
+    <h1>My Top Tracks</h1>
+    <ul>
+        {% for song in songs %}
+            <li>{{ song[0] }} by {{ song[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
