@@ -7,10 +7,12 @@ app = Flask(__name__)
 def home():
     conn = sqlite3.connect("music.db")
     cursor = conn.cursor()
-    cursor.execute("SELECT name, artist FROM tracks")
+    cursor.execute("SELECT name, artist, album, duration_ms, popularity FROM tracks")
     songs = cursor.fetchall()
     conn.close
     return render_template('index.html', songs = songs)
+
+
 
 
 if __name__ == "__main__":
