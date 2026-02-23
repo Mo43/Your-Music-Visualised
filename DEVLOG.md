@@ -20,4 +20,7 @@
 ## 22 feb 2026
 - returned top 10 songs to the website by using render template to loop inside of a html file, also used jinja2 syntax.
 
+## 23 feb 2026
+- 
+
 
